@@ -14,16 +14,16 @@
     <title>Bootstrap Page</title>
   </head>
    <!-- banner -->
-  <body style="height: 75vh"> <!-- body is 100vh and the banner is 25vh of the body -->
+  <body style="height: 100vh;"> <!-- body is 100vh and the banner is 25vh of the body -->
    
     <!-- applying flex to make it center -->
-    <div 
-      class="header h-25 bg-info d-flex flex-column justify-content-center align-items-center">
+    <div style="height: 25vh"
+      class="header bg-info d-flex flex-column justify-content-center align-items-center">
       <p class="fs-1">Bootstrap page</p> <!-- font size increased to highest-->
       <p class="fs-4">Create this</p>
     </div>
     <!-- navigation bar -->
-    <nav style="height: 5vh" class="navbar navbar-light bg-light">
+    <nav style="height: 5vh" class="navbar navbar-light bg-light fw-bolder d-flex align-content-center">
         <div class="container-fluid d-flex justify-content-center">
           <a class="nav-link" href="#">Home</a>
           <a class="nav-link" href="#">About</a>
@@ -48,7 +48,7 @@
         </div>
       </div>
       <!-- button -->
-      <div  style="height:32vh" class="container d-flex flex-row justify-content-around" >
+      <div  style="height:25vh" class="container d-flex flex-row justify-content-around" >
     <button style="width:18rem; height:4rem" class="btn btn-primary ">First card</button>
     <button style="width:18rem; height:4rem"class="btn btn-warning ">Second card</button>
     <button style="width:18rem; height:4rem"class="btn btn-success ">Third card</button>
@@ -57,8 +57,8 @@
 <!-- footer
  -->
  <div 
-      class="footer bg-info d-flex flex-column justify-content-center align-self-end align-items-center">
-      <p class="fs-3">Footer!</p> <!-- font size increased to highest-->
+      class="footer bg-info ">
+      <p class="fs-3 d-flex flex-column justify-content-center align-items-center p-3">Footer!</p> <!-- font size increased to highest-->
     
     </div>
     <!-- JavaScript Bundle with Popper -->
